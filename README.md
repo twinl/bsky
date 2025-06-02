@@ -2,7 +2,7 @@
 
 This repository contains the software used for collecting and analyzing Dutch social media posts from the microblogging platform [Bluesky](https://bluesky.app). For more infomation see:
 
-> Erik Tjong Kim Sang, "[Using Bluesky for Social Media Analysis](https://ifarm.nl/erikt/papers/DHBenelux_20251220.pdf)". Submitted to DHBenelux 2025, Amsterdam, The Netherlands, 20 December 2024
+> Erik Tjong Kim Sang, "[Using Bluesky for Social Media Analysis](https://ifarm.nl/erikt/papers/DHBenelux_20250602.pdf)". DHBenelux 2025, Amsterdam, The Netherlands, 2025.
 
 ## Repository contents
 
