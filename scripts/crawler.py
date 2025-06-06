@@ -13,9 +13,28 @@ import time
 
 
 LOCAL_DIR = "/home/erikt/software/bsky"
-URL = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
-QUERY_WORDS = ["de",  "en",  "van", "op",   "voor", "zijn", "er",  "wel", "ze",  "geen",
-               "het", "een", "dat", "niet", "met",  "te",   "als", "aan", "bij", "zo"]
+URL = "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+# 20241226 10:50 added: ik is in je maar die ook wat dan nog om dit
+QUERY_WORDS = ["aan",
+               "als",
+               "bij", "dan",
+               "dat",
+               "de", "die", "dit",
+               "een",
+               "en",
+               "er",
+               "geen",
+               "het", "ik", "in", "is", "je", "maar",
+               "met",
+               "niet", "nog", "om", "ook",
+               "op",
+               "te",
+               "van",
+               "voor", "wat",
+               "wel",
+               "ze",
+               "zijn",
+               "zo"]
 
 
 def save_posts(query, json_data):
